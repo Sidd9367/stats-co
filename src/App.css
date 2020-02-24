@@ -1,0 +1,110 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee';
+  body
+  {
+    font-family: Bungee;
+  }
+.App{
+  background-image:url("homeback.png") ;
+  background-repeat: no-repeat;
+   background-size: cover;
+   height: 500px;
+  width:100%;
+  display: flex;
+}
+.home{
+  position: relative;
+}
+.home_label1
+{
+  margin: 10%;
+  font-size: 35px;
+  color:white;
+  display:block;
+
+}
+.home_label2
+{
+  color:white;
+  margin: 10%;
+ width: 50%;
+ font-size: 25px;
+ display:block;
+}
+.home_select1{
+  width: 25%; 
+  padding: 5px 5px;
+  border: 1px solid  ;
+  margin-left: 10%;
+  margin-right: 3%;
+  margin-bottom: 5%;
+  border-radius:5px ;
+}
+.home_text1 {
+  width: 50%;
+  padding: 15px 5px;
+  border: 1px solid;
+  border-radius:5px;
+ 
+}
+.home_button1 {
+  width: 25%;
+  background-color: #FFB441 ; 
+  border: none;
+  color:black; 
+  border: 1px solid  ;
+  padding: 10px 5px;
+  border-radius:5px;
+  display: inline-block;
+  margin-left:10%;
+}
+.home_info{
+position: relative;
+ width: 90%; 
+}
+.home_label3
+{margin-left: 5%;
+  margin-top: 5%;
+  font-size: 35px;
+  display:block;
+}
+.home_features
+{display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  position: relative;
+  padding: 40px 60px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+.feature_info
+{
+ font-size: 16px;
+ width:500px;
+}
+img
+{display: block;
+  width:150px;
+  height:150px;
+  margin: 0 auto 20px; 
+}
+.home_label4
+{ 
+  font-size: 25px;
+  color: red;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #333;
+  text-align: center;
+}
+.footer_title
+{color: white;
+  font-size: 30px;
+}
+
